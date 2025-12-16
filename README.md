@@ -1,4 +1,4 @@
-# RabbitGame
+# RabbitGame 🐰🥕
 A multithreaded Java program for a terminal-based game.  Examining this code along with its output is highly beneficial for understanding the functioning of threads
 
 
@@ -18,6 +18,40 @@ only jump from one box to the next box right a er it. They cannot jump back.
 • A er a carrot is removed, it is announced (printed). 
 • At the end of the game rabbits announce their total score.
 • Each rabbit will have a name. 
+EXAMPLE TERMINAL OUTPUT:
+The program starts: 
+Enter number of rabbits: 5 ↵ 
+Enter number of boxes: 100 ↵ 
+Enter carrot producing rate (X): 300 ↵ 
+Enter carrot meout (Y): 600 ↵ 
+Enter sleeping me for rabbits (Z): 100 ↵ 
+The game starts 
+Remzi jumps to box 1 
+Canan jumps to box 1 
+Person puts carrot to box 3 
+Remzi jumps to box 2 
+Neca jumps to box 1 
+Remzi jumps to box 3 
+Person puts carrot to box 66 
+Remzi eats carrot in box 3 
+. 
+. 
+.
+Carrot in box 66 removed 
+. 
+. 
+.
+Neca jumps to box 99 
+Canan jumps to box 99 
+Neca has 4 points 
+Canan has 3 points 
+Remzi jumps to box 99 
+Remzi has 6 points 
+Game over! 
+
+
+
+
 <img width="1648" height="1210" alt="image" src="https://github.com/user-attachments/assets/10b9ffa0-c756-445a-b4eb-1572147bfca8" />
 
 
